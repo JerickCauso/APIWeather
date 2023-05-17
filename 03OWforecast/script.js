@@ -67,11 +67,11 @@ function displayChart(forecastData) {
   const tempday3 = `${forecastData.list[22].main.temp_max}`;
   const tempday4 = `${forecastData.list[30].main.temp_max}`;
   const tempday5 = `${forecastData.list[38].main.temp_max}`;
-  const today = `${forecastData.list[6].dt_txt}`;
-  const day2 = `${forecastData.list[14].dt_txt}`;
-  const day3 = `${forecastData.list[22].dt_txt}`;
-  const day4 = `${forecastData.list[30].dt_txt}`;
-  const day5 = `${forecastData.list[38].dt_txt}`;
+  // const today = `${forecastData.list[6].dt_txt}`;
+  // const day2 = `${forecastData.list[14].dt_txt}`;
+  // const day3 = `${forecastData.list[22].dt_txt}`;
+  // const day4 = `${forecastData.list[30].dt_txt}`;
+  // const day5 = `${forecastData.list[38].dt_txt}`;
 
   // const date = new Date(weatherData.dt_txt);
   // const day = date.toLocaleDateString(undefined, { weekday: "long" });
